@@ -1,4 +1,4 @@
-import socket, pdb, json, requests
+import socket, json, requests
 
 hotweb = [
 	'facebook.com', 
@@ -36,11 +36,3 @@ for web in hotweb:
 		print web, " F"
 	else:
 		print web, " Safe"
-
-	# ansli[web] = r.json()
-	# if data[1] == 'F':
-		# print web, " might be DNS Spoofing"
-	# ansli[web] = ans
-	# print web, "\n", ans, "\n"
-# pdb.set_trace()
-
