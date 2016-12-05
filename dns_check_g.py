@@ -33,6 +33,6 @@ for web in hotweb:
 			flag = 1
 			break
 	if flag == 0:
-		print web, " F"
+		print(web, " F")
 	else:
-		print web, " Safe"
+		print(web, " Safe")
