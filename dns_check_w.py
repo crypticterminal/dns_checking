@@ -30,7 +30,7 @@ for web in hotweb:
 	data = r.json()
 	ansli[web] = r.json()
 	if data[1] == 'F':
-		print web, " might be DNS Spoofing"
+		print(web, " might be DNS Spoofing")
 	# ansli[web] = ans
 	# print web, "\n", ans, "\n"
 # pdb.set_trace()
