@@ -27,7 +27,7 @@ for web in hotweb:
 		'dn': web,
 	}
 	r = requests.get(url, params=param)
-	data = r.json()
+	data = json.loads(r.text)
 	for i in range(len(data['Answer'])):
 		if ans == data['Answer'][i]['data']:
 			flag = 1
