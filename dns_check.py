@@ -1,21 +1,22 @@
 import socket, pdb, json, requests
 
-hotweb = [
-	'facebook.com', 
-	'plurk.com', 
-	'google.com', 
-	'linkedin.com', 
-	'instagram.com', 
-	'twitter.com', 
-	'twitch.tv', 
-	'github.com', 
-	'dropbox.com', 
-	'trello.com', 
-	'flickr.com', 
-	'slack.com', 
-	'doodle.com', 
-	'wikipedia.org', 
-]
+hotweb = ['http://www.plurk.com', 
+	'http://www.linkedin.com', 
+	'http://www.instagram.com', 
+	'http://www.twitch.tv', 
+	'http://www.trello.com', 
+	'http://www.flickr.com', 
+	'http://www.doodle.com', 
+	'http://www.pchome.com.tw', 
+	'http://www.starbucks.com.tw', 
+	'http://www.mobile01.com', 
+	'http://www.momoshop.com.tw', 
+	'http://shopping.pchome.com.tw', 
+	'http://www.books.com.tw', 
+	'http://ppt.cc', 
+	'http://www.dgpa.gov.tw', 
+	'http://www.cwb.gov.tw',
+	]
 
 url = "http://150.95.137.240/ask_goo.php"
 i = 0
